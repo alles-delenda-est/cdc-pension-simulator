@@ -125,8 +125,8 @@ export function calculateBorrowingRate(debtRatio, options = {}) {
 // --- Preset configurations ---
 export const PRESETS = {
   default: {
-    label: 'Hypothèses par défaut',
-    description: 'Post-critique : r_c=3%, w_r=0.7%, E₀=345 Md€, Equinoxe, endogenous r_d',
+    label: 'Hypothèses de base',
+    description: 'r_c=3%, w_r=0.7%, E₀=345 Md€, réductions Equinoxe, taux endogènes',
     params: {
       N: 70, pi: 0.02, w_r: 0.007,
       r_f: 0.03, r_c: 0.03,
