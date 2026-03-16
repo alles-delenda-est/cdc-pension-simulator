@@ -21,9 +21,29 @@ export default function IntroPage({ navigateTo }) {
         <p>
           La France consacre environ <strong>345 milliards d'euros par an</strong> aux pensions
           de retraite — soit ~14% du PIB, le 3e ratio le plus eleve de l'OCDE. Ce systeme
-          par repartition (PAYG), ou les cotisations des actifs paient les pensions des
+          par repartition, ou les cotisations des actifs paient les pensions des
           retraites, fait face a une pression demographique croissante : le ratio
-          cotisants/retraites ne cesse de baisser.
+          cotisants/retraites ne cesse de baisser. 
+        </p>
+        <p>
+          Ce constat démographique étant à peu près pareil partout dans le monde, les systèmes 
+          par répartition sont vouées à l'echec. Fort heureusement que cette transition démographique 
+          doloreuse se fait dans une contexte d'intensification de l'industrialisiation et donc de 
+          gains immenses de productivité et de richesse, qui font que c'est tout à fait possible 
+          à auto-financer sa retraite, y compris à l'échelle d'une population.
+        </p>
+        <p>          
+          Malheureusement, bien que cela est une évidence depuis au moins les années 90, 
+          la France, essentiellement seul parmi les pays européens et de l'OCDE, n'a toujours 
+          pas entamé sa transition vers la capitalisation. Pire, nous avons empillé depuis plusieurs 
+          décennies un tel labyrinth des normes et des charges, ces derniers étant principalement pour 
+          tenter vainement de financer nos retraites, que notre pays n'a presque plus de croissance. 
+        </p>
+        <p>
+          L'excellente site de Joan Larroumec - @larroumecj resume bien la position minable de la France 
+          par rapport à ses pairs: https://francetdb.com/. Cette site a vocation de demontrer que même 
+          si c'est effectivement très, très, tard, ce n'est pas trop tard. On peut toujours s'en sortir, 
+          ce n'est qu'une question d'identifier les arbitrages nécessaires et de les implementer :)
         </p>
         <p>
           Ce simulateur explore un scenario radical : <strong>la transition complete
@@ -51,7 +71,10 @@ export default function IntroPage({ navigateTo }) {
             <p>
               Les 11,3% de cotisations salariales vont a 100% vers des
               <strong> comptes de capitalisation individuels</strong> des le Jour 1.
-              Plus aucun euro salarial ne finance les retraites par repartition.
+              Plus aucun euro salarial ne finance les retraites par repartition, dans 
+              la théorie (en vrai, les autres impôts, charges, et contributions vont
+              toujours financer en partie les retraites par le biais de la fameuse 
+              "diversification des moyens de financement". 
             </p>
           </div>
           <div className="mechanism-card">
