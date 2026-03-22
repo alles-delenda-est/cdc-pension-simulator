@@ -20,30 +20,43 @@ export default function IntroPage({ navigateTo }) {
         <h2>Pourquoi ce simulateur ?</h2>
         <p>
           La France consacre environ <strong>345 milliards d'euros par an</strong> aux pensions
-          de retraite — soit ~14% du PIB, le 3e ratio le plus eleve de l'OCDE. Ce systeme
-          par repartition, ou les cotisations des actifs paient les pensions des
-          retraites, fait face a une pression demographique croissante : le ratio
-          cotisants/retraites ne cesse de baisser. 
+          de retraite — soit ~14% du PIB, le 3e ratio le plus eleve de l'OCDE. Malheureusement, les 
+          cotisations de retraite, même au sens large (donc intégrant les sur-cotisations du 
+          gouvernement pour la fonction publique et transferts issus du Fonds de solidarité vieillesse), 
+          ne suffit plus de le payer. Presque 7.5% est financé par les autres postes sociales, et circa
+          14% par le budget général, c-à-d, par de la dette. 
         </p>
         <p>
-          Ce constat démographique étant à peu près pareil partout dans le monde, les systèmes 
-          par répartition sont vouées à l'echec. Fort heureusement que cette transition démographique 
-          doloreuse se fait dans une contexte d'intensification de l'industrialisiation et donc de 
-          gains immenses de productivité et de richesse, qui font que c'est tout à fait possible 
-          à auto-financer sa retraite, y compris à l'échelle d'une population.
+          Ce systeme par repartition, ou les cotisations des actifs paient les pensions des
+          retraites, doit faire face à une pression demographique croissante : le ratio cotisants/retraites 
+          ne cesse de baisser. 
         </p>
+        <p>
+          Fort heureusement que cette transition démographique doloreuse s'est fait dans une contexte 
+          d'intensification de l'industrialisiation et donc de gains immenses de productivité et de 
+          richesse, qui ont rendu possible un certain temps d'auto-financer sa retraite, y compris à 
+          l'échelle d'une population. Notre productivité semble
+        </p>
+        est voué à l'échec, avec : 
+        Ce constat démographique étant à peu près pareil partout dans le monde, les systèmes 
+          par répartition sont vouées à l'echec. 
         <p>          
-          Malheureusement, bien que cela est une évidence depuis au moins les années 90, 
-          la France, essentiellement seul parmi les pays européens et de l'OCDE, n'a toujours 
-          pas entamé sa transition vers la capitalisation. Pire, nous avons empillé depuis plusieurs 
+          Malheureusement, cela n'a pas duré. Nous avons empillé depuis plusieurs 
           décennies un tel labyrinth des normes et des charges, ces derniers étant principalement pour 
-          tenter vainement de financer nos retraites, que notre pays n'a presque plus de croissance. 
+          tenter vainement de financer nos retraites, que notre pays n'a presque plus de croissance, la 
+          productivité stagne, et quant à la production de richesse, n'en parle pas. 
+        </p>
+        <p>
+          On peut appeler ces factors les quatre chévaliers de l'apocalypse financière, qui rôde autour de
+          notre système de retraite: 
         </p>
         <p>
           L'excellente site de Joan Larroumec - @larroumecj resume bien la position minable de la France 
-          par rapport à ses pairs: https://francetdb.com/. Cette site a vocation de demontrer que même 
-          si c'est effectivement très, très, tard, ce n'est pas trop tard. On peut toujours s'en sortir, 
-          ce n'est qu'une question d'identifier les arbitrages nécessaires et de les implementer :)
+          par rapport à ses pairs: https://francetdb.com/, ainsi que le fait que le système de retraites 
+          actuelles va droit dans le mur (https://francetdb.com/#retraites). Cette site a vocation de 
+          demontrer que même si c'est effectivement très, très, tard, ce n'est pas trop tard. On peut 
+          toujours s'en sortir, ce n'est qu'une question d'identifier les arbitrages nécessaires et de 
+          les implementer :)
         </p>
         <p>
           Ce simulateur explore un scenario radical : <strong>la transition complete
