@@ -20,35 +20,37 @@ export default function IntroPage({ navigateTo }) {
         <h2>Pourquoi ce simulateur ?</h2>
         <p>
           La France consacre environ <strong>345 milliards d'euros par an</strong> aux pensions
-          de retraite — soit ~14% du PIB, le 3e ratio le plus eleve de l'OCDE. Malheureusement, les 
-          cotisations de retraite, même au sens large (donc intégrant les sur-cotisations du 
-          gouvernement pour la fonction publique et transferts issus du Fonds de solidarité vieillesse), 
-          ne suffit plus de le payer. Presque 7.5% est financé par les autres postes sociales, et circa
-          14% par le budget général, c-à-d, par de la dette. 
+          de retraite — soit ~14% du PIB, le 3e ratio le plus eleve de l'OCDE. Les cotisations de 
+          retraite, même au sens large (donc intégrant les sur-cotisations du gouvernement pour la 
+          fonction publique et transferts issus du Fonds de solidarité vieillesse), ne suffit plus 
+          de le payer. Presque 7.5% est financé par les autres postes sociales, et circa 14% par 
+          le budget général, c-à-d, par de la dette. 
         </p>
         <p>
           Ce systeme par repartition, ou les cotisations des actifs paient les pensions des
-          retraites, doit faire face à une pression demographique croissante : le ratio cotisants/retraites 
-          ne cesse de baisser. 
+          retraites, doit en plus de son insolvabilité, faire face à une pression demographique croissante : 
+          le ratio cotisants/retraites ne cesse de baisser, et son financement principal avec. Cela 
+          ne fait qu'augmenter les recours à la dette et donc la charge des intérêts que les français 
+          doivent supporter.
         </p>
         <p>
-          Fort heureusement que cette transition démographique doloreuse s'est fait dans une contexte 
+          Fort heureusement que cette transition démographique doloreuse s'était entamé dans une contexte 
           d'intensification de l'industrialisiation et donc de gains immenses de productivité et de 
-          richesse, qui ont rendu possible un certain temps d'auto-financer sa retraite, y compris à 
-          l'échelle d'une population. Notre productivité semble
+          richesse, qui ont rendu possible un certain temps d'auto-financer les retraites, y compris à 
+          l'échelle d'une population. 
         </p>
-        est voué à l'échec, avec : 
-        Ce constat démographique étant à peu près pareil partout dans le monde, les systèmes 
-          par répartition sont vouées à l'echec. 
         <p>          
-          Malheureusement, cela n'a pas duré. Nous avons empillé depuis plusieurs 
-          décennies un tel labyrinth des normes et des charges, ces derniers étant principalement pour 
-          tenter vainement de financer nos retraites, que notre pays n'a presque plus de croissance, la 
-          productivité stagne, et quant à la production de richesse, n'en parle pas. 
+          Malheureusement, cela n'a pas duré. Nous avons empillé depuis plusieurs décennies un tel 
+          labyrinth des normes et des charges, ces derniers étant principalement pour tenter vainement 
+          de financer nos retraites, que notre pays n'a presque plus de croissance, la productivité 
+          stagne, et quant à la production de richesse, n'en parle pas. 
         </p>
         <p>
           On peut appeler ces factors les quatre chévaliers de l'apocalypse financière, qui rôde autour de
-          notre système de retraite: 
+          notre système de retraite: ceux qui creuse notre fossé, 1. La pente démographique, qui condamne 
+          les systèmes par répartition, et 2. La Dette, symptome de l'échec du système actuel et héraut de 
+          notre faillite, et ceux qui nous empêche de s'en sortir: 3. Les marchés sclerosés: le travail, et
+          4. Les marchés sclerosés: l'immobilier.   
         </p>
         <p>
           L'excellente site de Joan Larroumec - @larroumecj resume bien la position minable de la France 
@@ -70,6 +72,113 @@ export default function IntroPage({ navigateTo }) {
           Ce n'est pas une prediction. C'est un outil d'exploration : il rend
           visibles les mecanismes, les tensions et les compromis d'une telle reforme.
         </p>
+      </section>
+
+      {/* --- The 4 horsemen --- */}
+      <section className="intro-section">
+        <h2>Les Quatres Chevaliers</h2>
+        <p>
+        </p>
+        <div className="mechanism-grid">
+          <div className="mechanism-card">
+            <h3>1. La pente démographique</h3>
+            <p>
+              , et , , et ceux : , et
+          . 
+            </p>
+          </div>
+          <div className="mechanism-card">
+            <h3>2. La Dette</h3>
+            <p>
+              symptome de l'échec du système actuel et héraut de 
+          notre faillite.
+            </p>
+          </div>
+          <div className="mechanism-card">
+            <h3>3. Les marchés sclerosés: le travail</h3>
+            <p>
+              Premier parmi ceux qui nous empêche de s'en sortir.
+            </p>
+          </div>
+          <div className="mechanism-card">
+            <h3>4. Les marchés sclerosés: l'immobilier</h3>
+            <p>.
+
+            </p>
+          </div>
+        </div>
+      </section>
+
+    </div> 
+    <div className="intro-page">
+
+      {/* --- Hero --- */}
+      <section className="intro-les vertues">
+        <h2>Quatres Vertues Cardinales (budgétaires) aux secours</h2>
+        <p>
+          L'hypothese de cette simulateur est que la France possede les moyens de s'en sortir, et 
+          notamment, que nous pourrions s'appuyer sur quatres vertues budgétaires: 
+        </p>
+      </section>
+
+      {/* --- The 4 virtues aux secours --- */}
+      <section className="intro-section">
+        <h2>Les Quatres Vertues aux secours</h2>
+        <p>
+        </p>
+        <div className="mechanism-grid">
+          <div className="mechanism-card">
+            <h3>1. La Justice</h3>
+            <p>
+              Le premier étape est d'acter la justice intergenerationnelle, et de consigner un model 
+              devenu il y a longtemps caduc de répartition pur à l'histoire. On cesse de faire payer 
+              aux actifs les promesses faites aux retraités sans provision. Chaque génération assume 
+              sa propre retraite. Concrétement, les cotisations "à la charge de l'employé" (mettant de
+              côté la réalité que tous les cotisations sont à la charge de l'employé) sont versés dans 
+              un fond de capitalisation.  
+            </p>
+          </div>
+          <div className="mechanism-card">
+            <h3>2. La Sobriété</h3>
+            <p>
+              Une génération moins nombreux que ses ainés ne peut pas supporter la charge actuelle 
+              de ses ainés, qui, à cause de l'irresponsibilité de nos politiciens des dernièrs 5 
+              décennies, depasse aussi de loin ce que cette génération a cotisé.
+              Nous actons donc les baisses des pensions proposé par la parti équinoxe, et nous 
+              supprimons également l'absurdité de l'abattement pour frais forfaitaires dans le chef
+              des personnes qui n'ont pas, en principe, des frais pour toucher leurs retraites.
+            </p>
+          </div>
+          <div className="mechanism-card">
+            <h3>3. La Courage</h3>
+            <p>
+              Le marché du travail français est tellement cassé que plusiers Presidents ont 
+              tenté de s'y attaquer, et ont fléchi au moment critique. Mais pour générer des 
+              cotisations supplémentaires c'est nécesssaire. Nous abolissons le CDI, nous 
+              abolissons les privilèges syndicales (rien n'empêchera un syndicat de se faire
+              voter par la majorité des ouvriers dans une entreprise, pourvu que ce soit par 
+              un ballot secret, mais il n'aurons aucun pouvoir de s'y installer autrement), et, 
+              mesure facile dans ce pays avec le "filet de sécurité" presque le plus complet du
+              monde, nous instaurons le droit de licencier.
+              Cela génére une hausse important de la croissance et du taux de la participation, 
+              générant des importants hausses des cotisations. 
+            </p>
+          </div>
+          <div className="mechanism-card">
+            <h3>4. La Prudence</h3>
+            <p>.Le system des logements sociaux est, lui aussi, profondement cassé. Trop des 
+              citoyens en réel besoin ne peut pas y acceder, ou souffre de la petite tyrannie 
+              d'une bureaucratie trop souvent impitoyable, tandis que trop des copains des partis
+              politiques de la gauche en abuse. 
+              Nous reformons le parc social en remplacant les logements avec les subventions, 
+              accordés uniquement à ceux qui en ont réellement besoin, en les donnant aussi la liberté
+              de s'y installer où ils veulent, dans le logement de leur choix. De par ce fait, nous 
+              abolissons les exigences de logement social, et nous liquidons progressivement le parc 
+              social devenu obsolet, afin de libérer des fonds dans l'immédiat pour payer des droits 
+              acquis, et minimisant le recours à la dette.              
+            </p>
+          </div>
+        </div>
       </section>
 
       {/* --- The Reform Mechanism --- */}
