@@ -109,11 +109,9 @@ export default function IntroPage({ navigateTo }) {
         </div>
       </section>
 
-    </div> 
-    <div className="intro-page">
 
-      {/* --- Hero --- */}
-      <section className="intro-les vertues">
+      {/* --- Les Vertues --- */}
+      <section className="intro-les-vertues">
         <h2>Quatres Vertues Cardinales (budgétaires) aux secours</h2>
         <p>
           L'hypothese de cette simulateur est que la France possede les moyens de s'en sortir, et 
