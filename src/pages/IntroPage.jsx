@@ -187,14 +187,16 @@ export default function IntroPage({ navigateTo }) {
         </p>
         <div className="mechanism-grid">
           <div className="mechanism-card">
-            <h3>1. Les cotisations salaries basculent</h3>
+            <h3>1. Les cotisations salaries basculent — progressivement, par cohorte</h3>
             <p>
-              Les 11,3% de cotisations salariales vont a 100% vers des
-              <strong> comptes de capitalisation individuels</strong> des le Jour 1.
-              Plus aucun euro salarial ne finance les retraites par repartition, dans 
-              la théorie (en vrai, les autres impôts, charges, et contributions vont
-              toujours financer en partie les retraites par le biais de la fameuse 
-              "diversification des moyens de financement". 
+              Les 11,3% de cotisations salariales vont vers des
+              <strong> comptes de capitalisation individuels</strong>, mais <strong>uniquement
+              pour les actifs sous un certain âge en 2026</strong> (50 ans par défaut).
+              Les plus âgés conservent 100% de leurs droits en répartition jusqu'à leur
+              départ à la retraite. La part basculée croît linéairement au fur et à mesure
+              que les cohortes legacy s'éteignent : ~65% la première année, 100% après ~15 ans.
+              Le paramètre est réglable ; « Aucun » reproduit le basculement immédiat du
+              document technique original.
             </p>
           </div>
           <div className="mechanism-card">
@@ -217,9 +219,12 @@ export default function IntroPage({ navigateTo }) {
           <div className="mechanism-card">
             <h3>4. Un prelevement accelere le remboursement</h3>
             <p>
-              A partir de l'annee 15, un <strong>prelevement de 30%</strong> sur les
-              flux de capitalisation est redirige vers le remboursement de la dette
-              de transition. C'est le principal levier pour atteindre la dette zero.
+              Une fois que les premières cohortes éligibles à la capitalisation commencent
+              à cotiser (année 16 avec cutoff 50 ans — cela laisse une phase de
+              <em> pure-compounding</em> pendant laquelle les pots capi grossissent sans être
+              ponctionnés), un <strong>prelevement de 30%</strong> sur les flux de
+              capitalisation est redirige vers le remboursement de la dette de transition.
+              C'est le principal levier pour atteindre la dette zero.
             </p>
           </div>
         </div>
