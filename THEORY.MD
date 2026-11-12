@@ -37,7 +37,7 @@ The simulator's value is **pedagogical, not prescriptive**:
 5. Document the model fully (`cdc_legacy_fund_model.md`) with bit-exact v1 rétro-compatibility
 6. Maintain an honest critique (`critique.md`) that steelmans the objections
 
-Current focus: exposing policy levers that were previously hardcoded (v2 transition rule) while preserving the `Original v5` preset as a bit-exact reproduction anchor. Deployed via Vercel (`capi-model.vercel.app`) from `main`.
+Current focus: exposing policy levers that were previously hardcoded (v2 transition rule) while preserving the `Original v5` preset as a bit-exact reproduction anchor. Deployed via GitHub Pages (`gh-pages` branch, https://alles-delenda-est.github.io/cdc-pension-simulator/). The Vercel project `capi-model` belongs to the successor repo CapiModel.
 
 ## Key Discoveries
 
